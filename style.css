@@ -1,0 +1,40 @@
+body{font-family: 'Libre Baskerville', serif;}
+h1{
+    font-size: 55px;
+}
+.orange{
+    color: orange;
+}
+.red{
+    border: 10px tomato;}
+.flexiable-container{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin-left: 5%;
+}
+.halfwidth{
+    width: 35%;
+}
+.half-width{
+    padding-right: 500px;
+}
+a{
+    margin-top: 5%;
+    padding: auto;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(red, rgb(229, 156, 168));
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 10%;
+    color: white;}
+
+    #small{
+        margin-left: 8%;
+    }  
+    #middle{
+        text-align: center;
+    }
