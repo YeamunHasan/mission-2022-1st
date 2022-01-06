@@ -2,6 +2,15 @@ body{font-family: 'Libre Baskerville', serif;}
 h1{
     font-size: 55px;
 }
+.side-bar{
+    border-left: 6px solid red ;
+    border-radius: 5px;
+}
+.side-bar h1 { padding-left : 15px;}
+h3{
+    font-size: 20px ;
+    font-weight: 300;
+}
 .orange{
     color: orange;
 }
@@ -15,10 +24,11 @@ h1{
 }
 .halfwidth{
     width: 35%;
+    padding: 2%;
+    margin: 1% ;
+    border-radius: 10px;
 }
-.half-width{
-    padding-right: 500px;
-}
+.half-width{padding-right: 500px;}
 a{
     margin-top: 5%;
     padding: auto;
@@ -37,4 +47,12 @@ a{
     }  
     #middle{
         text-align: center;
+    }
+    .img-size{
+        height: 40%;
+        width: 40%;
+    }
+    .img{
+        height: 80%;
+        width: 80%;
     }
